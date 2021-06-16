@@ -45,13 +45,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="">Contact</a>
+              <a class="nav-link" href="#footer">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Pricing</a>
+              <a class="nav-link" href="#pricing">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Download</a>
+              <a class="nav-link" href="#cta">Download</a>
             </li>
           </ul>
         </div>
@@ -75,7 +75,6 @@
   <!-- Features -->
 
   <section id="features">
-    <!-- <div class="container-fluid"> -->
     <div class="row">
       <div class="feature-box col-lg-4">
         <i class="fas fa-check-circle fa-4x"></i>
@@ -93,16 +92,15 @@
         <p>Find the love of your dog's life or your money back.</p>
       </div>
     </div>
-    <!-- </div> -->
   </section>
 
 
   <!-- Testimonials -->
 
   <section id="testimonials">
-    <div id="testimonial-carousel" class="carousel slide" data-bs-ride="carousel">
+    <div id="testimonial-carousel" class="carousel slide" data-bs-ride="carousel" data-interval="3000" data-pause="hover">
       <div class="carousel-inner">
-        <div class="carousel-item active" data-pause="hover">
+        <div class="carousel-item active">
 
           <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
           <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
@@ -158,7 +156,7 @@
             <p>5 Matches Per Day</p>
             <p>10 Messages Per Day</p>
             <p>Unlimited App Usage</p>
-              <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
           </div>
         </div>
       </div>
@@ -189,7 +187,7 @@
             <p>Unlimited Matches</p>
             <p>Unlimited Messages</p>
             <p>Unlimited App Usage</p>
-              <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
           </div>
         </div>
       </div>
@@ -202,8 +200,8 @@
   <section id="cta">
 
     <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
+    <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+    <button type="button" class="btn btn-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
 
   </section>
 
@@ -211,7 +209,14 @@
   <!-- Footer -->
 
   <footer id="footer">
-    <p>© Copyright 2018 TinDog</p>
+
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+
+
+    <p>© Copyright 2021 TinDog</p>
   </footer>
 
 </body>
